@@ -32,16 +32,17 @@ Password: admin123
 
 Get file information: (You must pass your API key and the files ID via post or get)
 
-**Example Get:**
+### Getting Files
 
+**Input**
 <pre><code>http://www.example.com/api/info.php?api_key=1234567890&file_id=1234567890</code></pre>
 
 **Output:**
 <pre><code>Array ( [file_id] => QCRssxD12y0260423 [file_name] => myFile.rar [file_type] => application/octet-stream [file_size] => 1434112 [views] => 128 )</code></pre>
 
-**Uploading Files:**
+### Uploading Files
 
-**Example:**
+**Input (example code):**
 <pre><code>class Uploader 
     {
         var $filePath;
