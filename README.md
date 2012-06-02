@@ -101,3 +101,7 @@ http://www.example.com/delete/123456789/123456789/transformers.jpg</code></pre>
 ## Open Source License
 
 Released under the MIT public license.
+
+## Footnote
+
+I used to sell this and some other scripts online back in 2010 or so and some not very nice people started to distribute it for free or sell it and make profit and I stopped selling this script and others. Now I decided to open source and release it for free officially.
