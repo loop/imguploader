@@ -5,12 +5,12 @@ Image uploader with user/admin section and ability to implement your own ads or 
 
 ## System requirements
 
-PHP 5+
-MYSQL 4+
-Apache web server
-Mod Rewrite
-CGI access
-cUrl
+*PHP 5+
+*MYSQL 4+
+*Apache web server
+*Mod Rewrite
+*CGI access
+*cUrl
 
 ## Installation instructions
 
