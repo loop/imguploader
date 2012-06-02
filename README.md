@@ -34,7 +34,7 @@ Get file information: (You must pass your API key and the files ID via post or g
 
 ### Getting Files
 
-**Input**
+**Input:**
 <pre><code>http://www.example.com/api/info.php?api_key=1234567890&file_id=1234567890</code></pre>
 
 **Output:**
