@@ -32,17 +32,17 @@ Password: admin123
 
 Get file information: (You must pass your API key and the files ID via post or get)
 
-Example Get:
-http://www.www.example.com/api/info.php?api_key=1234567890&file_id=1234567890
+**Example Get:**
 
-Output:
-Array ( [file_id] => QCRssxD12y0260423 [file_name] => myFile.rar [file_type] => application/octet-stream [file_size] => 1434112 [views] => 128 )
+<pre><code>http://www.example.com/api/info.php?api_key=1234567890&file_id=1234567890</code></pre>
 
-Uploading Files:
+**Output:**
+<pre><code>Array ( [file_id] => QCRssxD12y0260423 [file_name] => myFile.rar [file_type] => application/octet-stream [file_size] => 1434112 [views] => 128 )</code></pre>
 
-Example:
+**Uploading Files:**
 
-    class Uploader 
+**Example:**
+<pre><code>class Uploader 
     {
         var $filePath;
 	    var $uploadURL;
@@ -91,12 +91,12 @@ Example:
     if(preg_match("/upload_failed/", $result)){ echo "Upload failed."; }
     if(preg_match("/invalid_api/", $result)){ echo "Invalid API Code."; }
 
-    if(preg_match("/upload_success/", $result)){ echo $result; }
+    if(preg_match("/upload_success/", $result)){ echo $result; }</code></pre>
 
-Output:
-upload_success
+**Output:**
+<pre><code>upload_success
 http://www.example.com/images/123456789/transformers.jpg
-http://www.example.com/delete/123456789/123456789/transformers.jpg
+http://www.example.com/delete/123456789/123456789/transformers.jpg</code></pre>
 
 ## Open Source License
 
